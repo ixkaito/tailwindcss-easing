@@ -1,6 +1,6 @@
 # tailwindcss-easing
 
-A Tailwind CSS plugin extend `transitionTimingFunction` with easing functions from [easings.net](https://easings.net/).
+A Tailwind CSS plugin extends `transitionTimingFunction` with easing functions from [easings.net](https://easings.net/).
 
 ```css
 .ease-css { transition-timing-function: ease; } /* The CSS default built-in `ease` */

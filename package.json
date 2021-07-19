@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "A Tailwind CSS plugin extend transitionTimingFunction with easing functions from easings.net",
   "main": "index.js",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "repository": "https://github.com/ixkaito/tailwindcss-easing",
   "publishConfig": {
     "access": "public"

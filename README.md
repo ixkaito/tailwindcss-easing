@@ -65,7 +65,7 @@ module.exports = {
 Use the `ease-{timing}` utilities to control an element’s easing curve.
 
 ```html
-<button class="transition ease-in-out-expo duration-500 ...">Button</button>
+<button class="ease-in-out-expo ...">Button</button>
 ```
 
 ## License

@@ -33,6 +33,41 @@ A Tailwind CSS plugin extend `transitionTimingFunction` with easing functions fr
 .ease-in-out-back { transition-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
 ```
 
+## Installation
+
+Install the plugin from npm:
+
+```sh
+npm install -D tailwindcss-easing
+```
+or
+```sh
+yarn add -D tailwindcss-easing
+```
+
+Then add the plugin to your `tailwind.config.js` file:
+
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require('tailwindcss-easing'),
+    // ...
+  ],
+}
+```
+
+## Usage
+
+Use the `ease-{timing}` utilities to control an element’s easing curve.
+
+```html
+<button class="transition ease-in-out-expo duration-500 ...">Button</button>
+```
+
 ## License
 
 MIT

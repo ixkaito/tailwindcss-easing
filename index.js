@@ -11,7 +11,7 @@ const easing = plugin(
       theme: {
         extend: {
           transitionTimingFunction: {
-            css: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
+            'css': 'cubic-bezier(0.25, 0.1, 0.25, 1)',
             'css-in': 'cubic-bezier(0.42, 0, 1, 1)',
             'css-out': 'cubic-bezier(0, 0, 0.58, 1)',
             'css-in-out': 'cubic-bezier(0.42, 0, 0.58, 1)',

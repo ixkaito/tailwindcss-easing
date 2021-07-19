@@ -3,10 +3,10 @@
 A Tailwind CSS plugin extend `transitionTimingFunction` with easing functions from [easings.net](https://easings.net/).
 
 ```css
-.ease-css { transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
-.ease-css-in { transition-timing-function: cubic-bezier(0.42, 0, 1, 1); }
-.ease-css-out { transition-timing-function: cubic-bezier(0, 0, 0.58, 1); }
-.ease-css-in-out { transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1); }
+.ease-css { transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); } /* The CSS default built-in `ease` */
+.ease-css-in { transition-timing-function: cubic-bezier(0.42, 0, 1, 1); } /* The CSS built-in `ease-in` */
+.ease-css-out { transition-timing-function: cubic-bezier(0, 0, 0.58, 1); } /* The CSS built-in `ease-out` */
+.ease-css-in-out { transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1); } /* The CSS built-in `ease-in-out` */
 .ease-in-sine { transition-timing-function: cubic-bezier(0.12, 0, 0.39, 0); }
 .ease-out-sine { transition-timing-function: cubic-bezier(0.61, 1, 0.88, 1); }
 .ease-in-out-sine { transition-timing-function: cubic-bezier(0.37, 0, 0.63, 1); }

@@ -1,14 +1,21 @@
 const plugin = require('tailwindcss/plugin')
 
 const easing = plugin(
-  () => {
-    // empty
+  ({ matchUtilities }) => {
+    matchUtilities(
+      {
+        'animation-ease': (value) => ({
+          'animation-timing-function': value,
+        }),
+      },
+      { values: theme('transitionTimingFunction') }
+    )
   },
   {
     theme: {
       extend: {
         transitionTimingFunction: {
-          'css': 'ease',
+          css: 'ease',
           'css-in': 'ease-in',
           'css-out': 'ease-out',
           'css-in-out': 'ease-in-out',

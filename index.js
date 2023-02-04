@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
 
 const easing = plugin(
-  ({ matchUtilities }) => {
+  ({ matchUtilities, theme }) => {
     matchUtilities(
       {
         'animation-ease': (value) => ({

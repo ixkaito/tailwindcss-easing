@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-easing",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Tailwind CSS plugin extends transitionTimingFunction with easing functions from easings.net",
   "main": "index.js",
   "license": "GPL-3.0",
